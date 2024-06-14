@@ -1,0 +1,195 @@
+/* General styles */
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, #74bcf6 0%, #bfd4eb 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-bottom: 1px solid #7aafe9;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.login-button {
+    display: flex;
+    justify-content:center;
+    font-weight: bolder;
+    align-items:flex-end;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    height: 100%;
+    width: 9%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #0026ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #7ba7d9;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 5px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+.add-category {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-category button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.add-category span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content #addCategoryForm {
+    display: none;
+    text-align: center;
+}
+
+.content input {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content .submit-button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #7ba7d9 0%, #fff 100%);
+    background-color: #7ba7d9;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginForm input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#loginForm button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loginForm button:hover {
+    background-color: #0026ff;
+}
+
+#forgotPassword {
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#forgotPassword:hover {
+    text-decoration: underline;
+}
+
