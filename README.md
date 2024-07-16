@@ -1,10 +1,10 @@
-Overview
+*Overview*
 -File Management System for ECoR Internship
 
-DATABASE
+**DATABASE**
 - For the database install XAMPP
 
-Additional Instruction
+***Additional Instruction***
 - Paste the vendor file both in FMS and in railway-final folder from https://drive.google.com/drive/folders/1T_mSuniC6jIKNnn5oyynjFSfDmfMmV5U?usp=drive_link
 - Make sure to COPY the file FMS in XAMPP/htdocs.
 - The databases codes like downlaod, login, logout, delete, connection, and all the necessary files are in the FMS folder.
