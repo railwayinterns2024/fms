@@ -1,2 +1,2 @@
-﻿SignUP-SignIn-Form-with-connection-to-FIrebase
-# check the video for how to work with the code [https://youtu.be/_Xczf06n6x0](https://www.youtube.com/channel/UCIaqBsk6GdL0GPIJ9ThOrMA)
+#NOTE
+- paste the vendor file both in FMS and in railway-final folder from https://drive.google.com/drive/folders/1T_mSuniC6jIKNnn5oyynjFSfDmfMmV5U?usp=drive_link
