@@ -1,10 +1,13 @@
-# fms
-Upload All the codes and Files Here
-## Updates
-- Made some slightly changes in the dashboard and documents files
-- Overflow issue solved
-- contact page has been made and not its content cuz 've no idea what to put  \_('.')_/
-- starting page in the front end is the splash.html or index2.html
-### update 2
-- railway-final files contains user side dashboard
-- all files are uploaded except for the svgs file cuz it has more than 1600 files and git won't let more than 100 in each folder so
+Overview
+-File Management System for ECoR Internship
+
+DATABASE
+- For the database install XAMPP
+
+Additional Instruction
+- Paste the vendor file both in FMS and in railway-final folder from https://drive.google.com/drive/folders/1T_mSuniC6jIKNnn5oyynjFSfDmfMmV5U?usp=drive_link
+- Make sure to COPY the file FMS in XAMPP/htdocs.
+- The databases codes like downlaod, login, logout, delete, connection, and all the necessary files are in the FMS folder.
+- All the frontend files are also in the FMS files and FMS/railway-final
+- The railway-final folder contains USER-SIDE codes and FMS contains ADMIN-SIDE
+- The website is hosted on localhost, and the first page is splash.php
