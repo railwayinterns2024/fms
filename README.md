@@ -1,5 +1,5 @@
 **Overview**
--File Management System for ECoR Internship
+- File Management System for ECoR Internship
 
 **DATABASE**
 - For the database install XAMPP
