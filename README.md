@@ -18,6 +18,7 @@ A step-by-step guide to get a development environment running.
 
 2. **Set up the Database**
     - Open XAMPP Control Panel and start Apache and MySQL.
+    - exported sql database is in fms folder named "file_management(1)"
     - Open phpMyAdmin (http://localhost/phpmyadmin/).
     - Create a new database called `your_database_name`.
     - Import the provided SQL file to set up the tables.
