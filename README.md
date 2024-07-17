@@ -12,8 +12,8 @@ A step-by-step guide to get a development environment running.
 
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone https://github.com/railwayinterns2024/fms.git
+    cd railwayinterns2024/fms
     ```
 
 2. **Set up the Database**
